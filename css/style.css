@@ -4,30 +4,47 @@ html{
     font-family: sans-serif;
     
 }
+
 h1{
     margin-top: 0,5px;
     text-align: center;
     background-image: url(/media/imagenes/episteme3.png);
 }
+
 .lista-ordenada{
     text-align: left;
     color: rgb(97, 148, 192);
 }
+
 .circulo{
     list-style-type: circle;
    bottom: 45px;
 }
 
 .cuadro1{
-
+    border-inline: 6px;
      width: 500px;
     height: 50px;
 
     border-style: solid;
+    border-width: 3px;
     border-color: rgb(255, 255, 255);
     text-align:justify;
     border-width: 0,5ch;
     text-align:justify;
      color: rgb(209, 213, 215);
     background-color: rgb(0, 0, 0);
+}
+
+.cuadro2{
+    border-style: solid;
+    border-color: aqua;
+    width: 250px;
+    height:auto;
+    text-align:initial;
+    color: aliceblue;
+}
+
+.texto1{
+    color: violet;
 }
