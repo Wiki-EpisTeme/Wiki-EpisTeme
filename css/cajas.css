@@ -1,0 +1,7 @@
+/*aqui estan los formatos de cajas.html y de mas*/
+.cuadro2{
+    padding: 40;
+    border-style: solid;
+    color: black;
+    width: 300px;
+}
