@@ -12,3 +12,12 @@ h1{
     border-style: solid;
     border-width: 2px 0;
 }
+.botones1{
+    background-color:rgb(120, 135, 150);
+    
+    border-left:  rgb(120, 135, 150);
+    
+    border-top:  rgb(120, 135, 150);
+    border-right:  rgb(120, 135, 150);
+    border-bottom:  rgb(120, 135, 150);;
+}
