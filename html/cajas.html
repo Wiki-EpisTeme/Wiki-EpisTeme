@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/media/logos/logo de episteme. (2).png">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/cajas.css">
-    <title>Estilos de cajas ✨✨</title>
+    <link rel="stylesheet" href="/css/cajas de index.css">
+    <title>Cajas en css - EpisTeme 🎄🎅🏿</title>
 </head>
 <body>
+    <div class="inicio1">
+        
+        <a  href="/index.html"><img  class="logo1" src="/media/logos/logo de episteme. (3).png"></a>
+    </div>
+    
     <section>
-        <h1>Cajas en CSS  📚📚</h1><br><br><br>
+        
         <ol class="circulo"><h2>Indice</h2>
             <li><a href="cajas.html#indice1">modelo de caja en css📚📚</a></li>
-            <li><a href="cajas.html#indice1"></a></li>
-            <li><a href="cajas.html#indice1"></a></li>
+            <li><a href="cajas.html#indice2">Cajas de Bloque o de Linea</a></li>
+            <li><a href="https://www.youtube.com/watch?v=K3xmRF8ab1o">curso de cajas en youtube</a></li>
             <li><a href="cajas.html#indice1"></a></li>
             <li><a href="cajas.html#indice1"></a></li>
             <li><a href="cajas.html#indice1"></a></li>
@@ -46,17 +53,94 @@
             </ol>
             </p>
             <pre>
-            <section class="cuadro2">
+            <section>
+                <section class="cuadro2">
                 Ejemplo de como poner un bordo en css
                 <code>
                     h1{
                         width: 800px;
                         height: 150px;
+                        border-style:solid;
+                        border-width:3px;
                     }
-                 </code>
+                 </code><br><br><br><h2>estas etiquetas son de tipo shorthand</h2>
+                </section><br><br>
+                <p id="indice2"><b>Cajas de Bloque o de Linea</b>
+                    <li>Cajas de linea</li>
+                    -ocupan el espacio necesario para mostrar su contenido.
+                    -no tinen dimenciones modificables(alto y ancho).
+                    -permitenotros elementos a su lados.
+                    -padding y margin solo empujan a elementos a elementos adyacentes en horizontal,nunca en vertical.
+                    <li>Caja de bloque</li>
+                    -ocupan todo el ancho disponible.
+                    -tienen todo el ancho disponible lo que genera saltos de lineas.
+                    -no permiten otros elementos a su lado (aunque especifique un ancho,sigue ocupando todo el espacio) 
+                </p>
+                <h2>Caja bloque vs linea</h2>
+                <div class="caja-bloque">esto es una caja de bloque(div)</div>
+                <span class="caja-linea">esto es una caja de linea (span)</span>
+                <hr>
+                <h2>propiedad display</h2>
+                <p>
+                    -inlinea
+                    -block
+                    -inlinea-block : (permite usar lo de linea a bloque)
+                    -dimensiones(alto y ancho)
+                    -table
+                    -nose
+                    -list-item
+                    -flex
+                    -grid
+                </p>
+                <h2>propiedad overflow</h2>
+                <p>
+
+                </p>
+                <h2>Propiedad Tamaño de la caja</h2>
+                <p>
+
+                </p>
+                <h2>propiedades de float & clear</h2>
+                <p>
+                    float nos permite flotar elementos en un pagina y clear nos permite limpar donde vamos a poner los float
+                </p>
+                <article class="articulo1">
+                    <section class="elemento1">este flota a la derecha</section>
+                    <section>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore, et nostrum tenetur omnis ea accusamus laboriosam est itaque quod a expedita recusandae ipsam alias vitae quas amet ab laudantium eos!</section>
+                    <section class="elemento3">este flota a la izquierda</section>
+                </article>
+                <hr>
+                <h2>colapso de margenes verticales</h2>
+                <article class="margin1">
+                    <section>seccion 1</section>
+                    <section>seccion 2</section>
+                   
+                </article>
+             <p>como podemos ver las secciones en la mitad no tienen separacion apesar de que tienen ya magin vertical</p>
+                
+                <article class="margin1">
+                    <section class="span0">
+                        <span>span1</span><span>span2</span><span>span3</span>
+                    </section>
+                    
+                </article>
+como ponemos ver con los elementos de <b>span</b> se suman los <b>margin</b> asiendo asi que se vea mas separado.
+                <article><hr>
+                    <h2>centrado de cajas</h2>
+                    <div  class="sitio-web">
+                        <head>
+                            <h2 class="cabeza"> cabesera</h2>
+                           
+                        </head>
+                        <main>
+                            contenido principal
+                        </main>
+                        <footer>
+                            final de web
+                        </footer>
+                    </div>
+                </article>
             </section>
-            </pre>
-        </section>
 
 </body>
 </html>

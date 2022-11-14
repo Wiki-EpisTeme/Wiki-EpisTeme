@@ -2,17 +2,30 @@
 
 .inicio1{
     margin: auto;
-    border-style: solid;
-    border-width: 3px 0;
+    border-width: 4px 0;
     text-align: center;
-    width: 1000px;;
+    width:unset;
 }
+
 .logo1{
     
     height: 45px;
-    width: auto;
+    width: unset;
 }
 
-.parrafo1-index{
+.indice-principal{
+    position: absolute;
+    top: 9em;
+    width: unset;
+    left:0em;
+    right: unset;
+}
+
+.parrafo1-index, letras1{
+    position: absolute;
+    top: 12em;
+    width: 50%;
+    left:20em;
+    font:100
     
 }
