@@ -5,8 +5,9 @@ body{
     background-color: rgb(231, 232, 222);
     margin: 8px;
     cursor:pointer;
-
-    
+}
+.gif-de-bienvenida1{
+    font-size: 24px;
 }
 h1{
     font-family: serif;
