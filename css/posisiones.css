@@ -1,6 +1,6 @@
 .articulo1{
     width: 700px;
-    height: 1000px;
+    height: 1px;
     padding: auto;
     margin-left: auto;
     margin-right: auto;
@@ -12,7 +12,22 @@
     border-right: solid;
     border-color: black;
     border-width: 1px;
-    border-left: ;
+    
     margin-right: 820px;
+
+}
+.relative{
+    background-color: rgb(247, 19, 19);
+    position: relative;
+    bottom: 50px;
+
+}
+.absolute{
+    background-color: rgb(19, 53, 247);
+    position: absolute;
+    width: 500px;
+    height: 100;
+    top: 100;
+    left: 900px
 
 }

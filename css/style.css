@@ -6,10 +6,8 @@ body{
     margin: 8px;
     cursor:pointer;
 }
-.gif-de-bienvenida1{
-    font-size: 24px;
-}
-h1{
+
+h2{
     font-family: serif;
     color: rgb(7, 9, 10);
     text-align: center;
