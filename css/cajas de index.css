@@ -6,6 +6,13 @@ body{
     font-size: 15px;
     cursor:pointer;
 }
+h2{
+    font-family: serif;
+    color: rgb(7, 9, 10);
+    text-align: center;
+    border-style: solid;
+    border-width: 2px 0;
+}
 .indice-principal{
     position: relative;
     top: 50px;

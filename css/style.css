@@ -1,11 +1,5 @@
 /*aqui estan los estilos generales del cuerpo de todas las paginas*/
 
-body{
-    font-family:sans-serif;
-    background-color: rgb(231, 232, 222);
-    margin: 8px;
-    cursor:pointer;
-}
 
 h2{
     font-family: serif;
