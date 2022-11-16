@@ -1,33 +1,51 @@
-.articulo1{
-    width: 700px;
-    height: 1px;
-    padding: auto;
-    margin-left: auto;
-    margin-right: auto;
-    border-left: solid;
-    border-color: black;
+body{
+    font-family:sans-serif;
+    background-color: rgb(231, 232, 222);
+    margin: 8px;
+    cursor:pointer;
 }
-.indice1{
+
+.encabezado {
+    background-color: aquamarine;
+    position: fixed;
+    top: 0px;
+    left: 512px;
+
+    margin-left: 10px;
+    margin-right: 50%;
     
+    border-bottom: black;
+    font-family: sans-serif;
+    color: rgb(7, 9, 10);
+    text-align: center;
+    border-style: solid;
+    
+}
+
+.indice1{
+    position: relative;
+    top: 50px;
+    width: 70px;
+    height: 200px;
     border-right: solid;
     border-color: black;
-    border-width: 1px;
-    
-    margin-right: 820px;
+    border-width: 0.5px;
+    padding-right: 30px;
 
 }
-.relative{
-    background-color: rgb(247, 19, 19);
-    position: relative;
-    bottom: 50px;
+
+.aprobado{
+    width: 10px;
+}
+
+.cuerpo{
+    background-color: blueviolet;
+    position:relative;
+    margin-left: 150px;
+    bottom: 17em;
+    width: 600px;
 
 }
-.absolute{
-    background-color: rgb(19, 53, 247);
-    position: absolute;
-    width: 500px;
-    height: 100;
-    top: 100;
-    left: 900px
-
+.texto{
+    text-align: unset;
 }

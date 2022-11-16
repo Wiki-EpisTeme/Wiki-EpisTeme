@@ -14,12 +14,3 @@ h2{
     border-style: solid;
     border-width: 2px 0;
 }
-.botones1{
-    padding: 7%;
-    cursor: pointer;
-    background-color: rgb(231, 232, 222);
-    border-left:   rgb(231, 232, 222);
-    border-top:   rgb(231, 232, 222);
-    border-right:   rgb(231, 232, 222);
-    border-bottom:   rgb(231, 232, 222);
-}
