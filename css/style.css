@@ -1,3 +1,78 @@
-/*aqui estan los estilos generales del cuerpo de todas las paginas*/
+/*aqui estan los estilos de "Programacion en css*/
 
+body{
+    font-family:sans-serif;
+    background-color: rgb(231, 232, 222);
+    margin: 8px;
+    font-size: 15px;
+    cursor:pointer;
+}
 
+.botones1{
+    margin: 10px;
+    margin-left: 0.8em;
+    padding: 0.2em;
+    font-size: 0.9em;
+    cursor: pointer;
+    background-color: rgb(231, 232, 222);
+    border-left:   rgb(231, 232, 222);
+    border-top:   rgb(231, 232, 222);
+    border-right:   rgb(231, 232, 222);
+    border-bottom:   rgb(231, 232, 222);
+}
+
+.indice{
+    position: fixed;
+    top: 200px;
+    left: -0.5px;
+    
+}
+
+.indice-articulos{
+    position:fixed;
+    top: 200px;
+    left: 1500px;
+    width: 200px;
+    
+}
+
+.cuerpo{
+    position:relative;
+    top: 150px;
+    left: 350px;
+    width: 1000px;
+    height: auto;
+}
+
+.titulo{
+    font-size: 30px;
+}
+
+.subtitulo{
+    font-size:24px;
+}
+.parrafos{
+    text-align: justify;
+    line-height: 25px;
+}
+
+.iconos{
+    position: relative;
+    width: 20px;
+    height: auto;
+    top: 10px;
+    left: 2px;
+    padding: 10px;
+    
+}
+
+.figura1{
+    color: red;
+}
+.bordo-figure{
+    border-style: solid;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+    background-color: rgb(156, 156, 152);;
+}
