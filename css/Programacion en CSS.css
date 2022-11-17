@@ -8,6 +8,25 @@ body{
     cursor:pointer;
 }
 
+.logo-de-inicio{
+    position: sticky;
+    background-color: rgb(231, 232, 222);
+    top: -1.15px;
+    z-index: 1000;
+    text-align: center;
+    
+    
+}
+
+.logo1{
+    width: 10em;
+    border-bottom: thin solid black;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 10px;
+    background-color: rgb(231, 232, 222);
+}
+
 .botones1{
     margin: 10px;
     margin-left: 0.8em;
@@ -24,24 +43,28 @@ body{
 .indice{
     position: fixed;
     top: 200px;
-    left: -0.5px;
+    left: 35px;
+    padding-right: 20px;
+    border-right: thin solid;
     
 }
 
 .indice-articulos{
     position:fixed;
     top: 200px;
-    left: 1500px;
+    left: 1700px;
     width: 200px;
+    border-left: thin solid;
     
 }
 
 .cuerpo{
     position:relative;
     top: 150px;
-    left: 350px;
-    width: 1000px;
+    left: 450px;
+    width: 1100px;
     height: auto;
+    
 }
 
 .titulo{
