@@ -27,9 +27,9 @@
         <div class="indice-articulos">
             <ol>
                 <b class="subtitulo">- Índice.</b>
-                <li><a href="/html/Programacion en css.html#parrafo1"><input class="botones1" type="button"value="¿Que es el CSS?"></a></li>
-                <li><a href="/html/pagina1.html"><input class="botones1" type="button"value="Aprendiendo css."></a></li>
-                <li><a href="/html/cajas.html"><input class="botones1" type="button"value="Cajas css."></a></li>
+                <li><a href="/html/cursos/Programacion en css/programacion en css/Programacion en css.html#parrafo1"><input class="botones1" type="button"value="¿Que es el CSS?"></a></li>
+                <li><a href="/html/cursos/Programacion en css/programacion en css/Programacion en css.html#parrafo2"><input class="botones1" type="button"value="¿Para qué sirve el CSS?"></a></li>
+                <li><a href="/html/cursos/Programacion en css/programacion en css/Programacion en css.html#parrafo3"><input class="botones1" type="button"value="Sintaxis del CSS"></a></li>
             </ol>
         </div>
         <div class="cuerpo">
@@ -44,24 +44,64 @@
                 </p>
                 <p class="parrafos">
                     Sin embargo, Internet sería un lugar muy aburrido si todas las páginas web se vieran así. Usando CSS se pueden controlar con precisión cómo se ven los elementos HTML en el navegador, que presentará para las etiquetas de marcado el diseño que cada uno desee.
-                </p>
+                </p><br><br>
 
-<b class="titulo">¿Para qué sirve el CSS?</b>
+<b class="titulo" id="parrafo2">¿Para qué sirve el CSS?</b>
 
                 <p class="parrafos">
-                    Como hemos mencionado, el CSS es un lenguaje informático que especifica cómo se presentan los documentos a los usuarios: cómo se diseñan, compaginan, etc. <br><br>
-
-                    Un documento suele ser un archivo de texto estructurado con un lenguaje de marcado: HTML es el más común, pero también existen otros como <b>SVG</b> o <b>XML</b> .  <br><br>
+                    Como hemos mencionado, el CSS es un lenguaje informático que especifica cómo se presentan los documentos a los usuarios: cómo se diseñan, compaginan, etc.
+                    Un documento suele ser un archivo de texto estructurado con un lenguaje de marcado: HTML es el más común, pero también existen otros como <b>SVG</b> o <b>XML</b> .
                     
                     Presentar un documento a un usuario significa convertirlo en un formulario que el público pueda utilizar. <b class="">Los navegadores</b>, como por ejemplo <b>Firefox</b> , <b>Chrome</b> o <b>Edge</b> <i>(en-US)</i> , están diseñados para presentar documentos visualmente en una pantalla de ordenador, un proyector o una impresora. <br><br> 
                     
-                    <figure class="bordo-figure"  >
-                        <p class="parrafos">
-                       <img class="iconos" src="/media/iconos/informacion.png" alt="Atencion."> Nota: Un navegador también recibe el nombre de agente de usuario, que consiste en un programa informático que representa a una persona dentro del sistema. Los navegadores son el modelo principal de agente de usuario en el que pensamos cuando hablamos de CSS, pero no son el único. Hay otros documentos de usuario disponibles, como los que convierten documentos HTML y CSS en PDF para imprimir.
-                        </p>
-                    </figure>
+                        <figure class="bordo-figure">
+                            <p class="parrafos">
+                                <img class="iconos" src="/media/iconos/informacion.png" alt="Atencion."> Nota: Un navegador también recibe el nombre de agente de usuario, que consiste en un programa informático que representa a una persona dentro del sistema. Los navegadores son el modelo principal de agente de usuario en el que pensamos cuando hablamos de CSS, pero no son el único. Hay otros documentos de usuario disponibles, como los que convierten documentos HTML y CSS en PDF para imprimir.
+                            </p>
+                        </figure>
+                </p><br><br>
+                <p class="parrafos">
+                    El CSS se puede usar para estilos de texto muy básicos como, por ejemplo, cambiar el color y el tamaño de los encabezados y los enlaces. Se puede utilizar para crear un diseño, como podría ser convertir una columna de texto en una composición (en-US) con un área de contenido principal y una barra lateral para información relacionada. Incluso se puede usar para crear efectos de animación. Echa un vistazo a los enlaces de este párrafo para ver ejemplos específicos.
+                </p><br><br>
+
+<b class="titulo" id="parrafo3">Sintaxis del CSS</b>
+                <p class="parrafos">
+                    El CSS es un lenguaje basado en reglas: cada usuario define las reglas que especifican los grupos de estilos que van a aplicarse a elementos particulares o grupos de elementos de la página web. <br><br>
+                    <li>Por ejemplo: <i> «Quiero que el encabezado principal de mi página se muestre en letras grandes de color rojo».</i></li><br><br>
+                    El código siguiente muestra una regla CSS muy simple que proporcionaría el estilo descrito en el párrafo anterior:
+                
+                    <figure class="bordo-figure"> 
+                        <p class="parrafos"><pre>
+                        h1 {<br>
+                            color: red;<br>
+                            font-size: 5em;<br>
+                        }
+                   </pre></p></figure><br><br>
+                                    
+                
+                    La regla se abre con un selector <b>(en-US).</b><br><br>
+                    Este selecciona el elemento HTML que vamos a diseñar. En este caso, diseñaremos encabezados de nivel uno <b>(<code>< h1 > </code> (en-US)).</b> <br><br>
+                    Luego tenemos un conjunto de llaves <b>{ }.</b>  Entre estas habrá una o más declaraciones, que tomarán la forma de pares de propiedad y valor. Cada par especifica cada una de las propiedades de los elementos seleccionados y el valor que queremos dar a esa propiedad.
+                    Antes de los dos puntos, tenemos la propiedad; y después, el valor. Las propiedades <b>(en-US)</b>  CSS admiten diferentes valores, dependiendo de qué propiedad se esté especificando. <br><br>
+                    En el ejemplo anterior, tenemos la propiedad color, que puede tomar varios valores de color. También tenemos la propiedad de font-size, que puede tomar varias unidades de tamaño como valor.
+                    Una hoja de estilo CSS contendrá muchas de estas reglas, escritas una tras otra.
+
+                    <figure class="bordo-figure"> 
+                        <p class="parrafos"><pre>
+                        h1 {
+                            color: red;
+                            font-size: 5em;
+                        }
+                        
+                        p {
+                            color: black;
+                        }
+                        
+                    </pre></p></figure><br><br>
                 </p>
-                <p class="parrafos"></p>
+                <p class="parrafos">
+                    
+                </p>
                 <p class="parrafos"></p>
                 <p class="parrafos"></p>
                 <p class="parrafos"></p>
