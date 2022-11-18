@@ -7,7 +7,7 @@
     </head>
     <body>
         <div class="indice">
-            <ul><b class="subtitulo">- Articulos.</b>
+            <ul><b class="subtitulo">- Temas relacionados.</b>
                 <li><a href=""><input class="botones1" type="button"value=""></a></li>
                 <li><a href=""><input class="botones1" type="button"value=""></a></li>
                 <li><a href=""><input class="botones1" type="button"value=""></a></li>
@@ -16,7 +16,7 @@
         </div>
         <div class="indice-articulos">
             <ol>
-                <b class="subtitulo">- Índice.</b>
+                <b class="subtitulo">- En este articulo.</b>
                 <li><a href=""><input class="botones1" type="button"value=""></a></li>
                 <li><a href=""><input class="botones1" type="button"value=""></a></li>
                 <li><a href=""><input class="botones1" type="button"value=""></a></li>
