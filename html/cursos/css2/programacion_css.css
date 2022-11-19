@@ -2,17 +2,18 @@
 
 body{
     font-family:sans-serif;
-    background-color: rgb(231, 232, 222);
+    background-color: rgb(2, 2, 2);
     margin: 8px;
     font-size: 15px;
     cursor:pointer;
     padding: auto;
     image-rendering: auto;
+    color: aliceblue;
 }
 
 .logo-de-inicio{
     position: sticky;
-    background-color: rgb(231, 232, 222);
+    background-color: rgb(100, 106, 128);
     top: -1.15px;
     z-index: 1000;
     text-align: center;
@@ -22,11 +23,11 @@ body{
 
 .logo1{
     width: 10em;
-    border-bottom: thin solid black;
+    border-bottom: thin solid rgb(100, 106, 128);
     padding-left: 300px;
     padding-right: 300px;
     padding-bottom: 10px;
-    background-color: rgb(231, 232, 222);
+    background-color: rgb(100, 106, 128);
 }
 
 .botones1{
@@ -35,11 +36,12 @@ body{
     padding: 0.2em;
     font-size: 0.9em;
     cursor: pointer;
-    background-color: rgb(231, 232, 222);
-    border-left:   rgb(231, 232, 222);
-    border-top:   rgb(231, 232, 222);
-    border-right:   rgb(231, 232, 222);
-    border-bottom:   rgb(231, 232, 222);
+    background-color: rgb(0, 0, 0);
+    border-left:   rgb(0, 0, 0);
+    border-top:   rgb(0, 0, 0);
+    border-right:   rgb(0, 0, 0);
+    border-bottom:   rgb(0, 0, 0);
+    color: aliceblue;
 }
 
 .indice{
@@ -71,14 +73,17 @@ body{
 
 .titulo{
     font-size: 30px;
+    color: aliceblue;
 }
 
 .subtitulo{
     font-size:24px;
+    color: aliceblue;
 }
 .parrafos{
     text-align: justify;
     line-height: 25px;
+    color:aliceblue;
 }
 
 .iconos{
@@ -92,7 +97,7 @@ body{
 }
 
 .figura1{
-    color: red;
+    color: rgb(255, 255, 255);
 }
 .bordo-figure{
     border-style: solid;
@@ -100,7 +105,8 @@ body{
     padding-top: 20px;
     padding-left: 50px;
     padding-bottom: 30px;
-    background-color: rgb(156, 156, 152);
+    border-color: black;
+    background-color: rgb(17, 57, 109);
     border-radius: 40px;
 }
 
