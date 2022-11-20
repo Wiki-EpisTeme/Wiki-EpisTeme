@@ -3,7 +3,7 @@
 body{
     font-family:sans-serif;
     background-color: rgb(2, 2, 2);
-    margin: 8px;
+    margin: auto;
     font-size: 15px;
     cursor:pointer;
     padding-left: 10px;
@@ -32,8 +32,8 @@ body{
 }
 
 .botones1{
-    margin: 10px;
-    margin-left: 0.8em;
+    margin: 5px;
+    margin-left: 5px;
     padding: 0.2em;
     font-size: 0.9em;
     cursor: pointer;
@@ -46,11 +46,19 @@ body{
 }
 
 .indice{
+   
+    
+}
+
+.barra-navegacion{
     position: fixed;
-    top: 200px;
-    left: 35px;
-    padding-right: 20px;
-    border-right: thin solid;
+    overflow-y:scroll;
+    top: 150px;
+    background-color: rgb(0, 0, 0);
+    height: 850px;
+    width:415px;
+    text-align: justify;
+    padding-left: -1.0em;
     
 }
 
@@ -66,7 +74,7 @@ body{
 .cuerpo{
     position:relative;
     top: 150px;
-    left: 450px;
+    left: 440px;
     width: 1100px;
     height: auto;
     
