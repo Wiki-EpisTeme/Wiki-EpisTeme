@@ -3,64 +3,55 @@ body{
     font-family:sans-serif;
     background-color: rgb(0, 0, 0);
     color: aliceblue;
-    margin: 20px;
+    margin: none;
     font-size: 15px;
     cursor:pointer;
     display: flexbox;
 }
-h2{
-    font-family: serif;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    border-style: solid;
-    border-width: 2px 0;
-}
+
+
 .indice-principal{
     position:sticky;
-    top: 50px;
+    top: ;
     left:0.5em;
     /*background-color: aqua;*/
     width: 220px;
     border-right: 1px solid rgb(255, 255, 255);
     
 }
-hr{
-    color: aliceblue;
-}
-.logo-de-inicio{
-    position: sticky;
-    /*background-color: rgb(231, 232, 222);*/
-    background-color: rgb(100, 106, 128);
-    top: -0.15px;
-    z-index: 1000;
-    text-align:left;
-    width:unset;
+
+.palabras{
+    position: relative;
+    width:max-content;
+    height:max-content;
+
+
 }
 
 .logo1{
-    
-    height: 50px;
-    margin-left: 70px;
+    position:absolute;
+    top: 300px;
+    left: 200px;
+    width: 90px;
 }
 
-
-.cabeza-index{
+hr{
+    color: rgb(10, 103, 185);
     
-    border-width: 5px;
+}
+.cabeza-index{
     position: relative;
-    padding-bottom: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 4em;
+
 }
 
 .generales{
     position:absolute;
-    /*background-color: aqua;*/
-    top: 10em;
+    background-color: aqua;
+    top: 1000em;
     left:19em; 
     width: 90em;
     height: 1000px;
+    z-index: 1000;
 
 }
 
@@ -74,17 +65,17 @@ hr{
 
 }
 .bienvenida1{
-    position: absolute;
-    bottom: -1em;   
-    right:-24em;
+    position:absolute; 
+    top: 300px; 
+    right:700px;
     width: 900px;
-    border-bottom:dotted rgb(1, 1, 1);
-    font-size: 24px;
+    font-size: 84px;
 
 }
 .parrafo1{
+
      width: 1100px;
-     background-color: rgb(0, 0, 0);
+     background-color: rgb(255, 3, 3);
      font-size: 24px;
 }
 
