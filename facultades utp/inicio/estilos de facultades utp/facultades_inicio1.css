@@ -23,14 +23,14 @@ body{
 
 
 .titulo{
-    position: absolute;
+    position: relative;
     top: 1%;
-    left: 38%;
+    left: 5%;
     padding-left: 2%;
     padding-right: 2%;
-    margin-left: -5%;
     width:min-content;
     border-bottom: thin solid;
+    font-size: large;
 }
 .indice-de-facultades{
     position: absolute;
@@ -40,15 +40,21 @@ body{
 }
 .parrafo{
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 25%;
     max-width: 50%;
     min-width: 20%;
 }
 
+
+.generales{
+    position: relative;
+
+}
+
 .noticias{
     position: absolute;
-    top: 20%;
-    left: 89%;
-    width: min-content;
+    top: 25%;
+    left: 85%;
+    width: max-content;
 }
