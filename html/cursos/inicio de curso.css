@@ -1,0 +1,39 @@
+body{
+    position: fixed;
+    background-color: aliceblue;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+    width: 100%;
+}
+
+.titulo{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+
+}
+
+.boton{
+    
+    
+}
+
+.boton1{
+    position: fixed;
+    top: 50%;
+    left: 47%;
+    width: auto;
+}
+.boton2{
+    position: fixed;
+    top: 50%;
+    left: 17%;
+    width: auto;
+}
+.boton3{
+    position: fixed;
+    top: 50%;
+    left: 77%;
+    width: auto;
+}
