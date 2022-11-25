@@ -3,14 +3,13 @@ body{
     font-family:sans-serif;
     background-color: rgb(255, 255, 255);
     color: rgb(5, 5, 5);
-    width: 100%;
+    max-width: 100%;
+    min-width: auto;
     margin: 5%;
 }
 
 .botones1{
-    margin: 2px;
-    margin-left: 0.1em;
-    padding: 1px;
+
     font-size: 12px;
     text-align: justify;
     cursor: pointer;
@@ -29,23 +28,26 @@ body{
     left: 38%;
     padding-left: 2%;
     padding-right: 2%;
-    width: auto;
+    width:min-content;
     border-bottom: thin solid;
 }
 .indice-de-facultades{
     position: absolute;
     top: 20%;
     left: 5%;
+    width:min-content;
 }
 .parrafo{
     position: absolute;
     top: 40%;
     left: 25%;
-    width: 50%;
+    max-width: 50%;
+    min-width: 20%;
 }
 
 .noticias{
     position: absolute;
     top: 20%;
-    left: 80%;
+    left: 89%;
+    width: min-content;
 }
