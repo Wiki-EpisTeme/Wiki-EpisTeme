@@ -28,6 +28,7 @@ body{
     left: 38%;
     padding-left: 2%;
     padding-right: 2%;
+    margin-left: -5%;
     width:min-content;
     border-bottom: thin solid;
 }
