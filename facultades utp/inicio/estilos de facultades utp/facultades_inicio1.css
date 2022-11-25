@@ -4,7 +4,7 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(5, 5, 5);
     width: 100%;
-    margin: 10px;
+    margin: 5%;
 }
 
 .botones1{
@@ -22,8 +22,26 @@ body{
     border-bottom:   rgb(255, 255, 255);
 }
 
+.titulo{
+    position: absolute;
+    top: 1%;
+    left: 38%;
+    width: 50%;
+}
 .indice-de-facultades{
     position: absolute;
     top: 20%;
     left: 5%;
+}
+.parrafo{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    width: 50%;
+}
+
+.noticias{
+    position: absolute;
+    top: 20%;
+    left: 80%;
 }
