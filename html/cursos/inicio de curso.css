@@ -15,10 +15,40 @@ body{
 }
 
 .boton{
+    position: absolute;
+    top: 10rem;
+    left: auto;
+    width: auto;
+
     
     
 }
+.adentro{
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size:larger;
+    margin: 5%;
+    background-color: rgb(255, 255, 255);
+    border-left:   rgb(255, 255, 255);
+    border-top:   rgb(255, 252, 252);
+    border-right:   rgb(255, 255, 255);
+    border-bottom:   rgb(255, 255, 255);
+    width: auto;
+}
 
+/*
+.botones1{
+    font-size: 12px;
+    text-align: justify;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-left:   rgb(255, 255, 255);
+    border-top:   rgb(255, 252, 252);
+    border-right:   rgb(255, 255, 255);
+    border-bottom:   rgb(255, 255, 255);
+}
+/*
 .boton1{
     position: absolute;
     top: 25rem;
@@ -37,3 +67,5 @@ body{
     left: 77%;
     width: auto;
 }
+*/
+
