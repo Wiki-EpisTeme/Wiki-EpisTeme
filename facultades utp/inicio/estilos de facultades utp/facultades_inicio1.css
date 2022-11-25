@@ -1,0 +1,29 @@
+/* aqui esta index.html*/
+body{
+    font-family:sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(5, 5, 5);
+    width: 100%;
+    margin: 10px;
+}
+
+.botones1{
+    margin: 2px;
+    margin-left: 0.1em;
+    padding: 1px;
+    font-size: 12px;
+    text-align: justify;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-left:   rgb(255, 255, 255);
+    border-top:   rgb(255, 255, 255);
+    border-right:   rgb(255, 255, 255);
+    border-bottom:   rgb(255, 255, 255);
+}
+
+.indice-de-facultades{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
