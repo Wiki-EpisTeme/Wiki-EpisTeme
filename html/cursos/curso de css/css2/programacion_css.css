@@ -2,77 +2,47 @@
 
 body{
     font-family:sans-serif;
-    background-color: rgb(2, 2, 2);
-    margin: auto;
-    font-size: 15px;
+    font-size: 12px;
     cursor:pointer;
-    padding-left: 10px;
-    padding-right: 10px;
-    image-rendering: auto;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
+    width: max-content;
 }
-
-.cabeza{
+.titulo1{
     position: absolute;
-    margin: unset;
-    text-align: unset;
-
-}
-.logo-de-inicio{
-    position: sticky;
-    padding-left: 560px;
-    padding-right: 560px;
-    margin: 11px;
-    background-color: rgb(100, 106, 128);
-    top: -1.15px;
-    z-index: 1000;
-    text-align: center;
-    
-    
-}
-
-.logo1{
-    width: 10em;
-    border-bottom: thin solid rgb(100, 106, 128);
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-bottom: 10px;
-    background-color: rgb(100, 106, 128);
+    top: 2%;
+    left: 50%;
 }
 .botones2{
-    margin: 5px;
-    margin-left: 8px;
-    padding: 0.2em;
-    font-size: 0.9em;
+    margin: 5%;
     cursor: pointer;
-    background-color: rgb(0, 0, 0);
-    border-left:   rgb(0, 0, 0);
-    border-top:   rgb(0, 0, 0);
-    border-right:   rgb(0, 0, 0);
-    border-bottom:   rgb(0, 0, 0);
-    color: rgb(12, 120, 214);
+    width:min-content;
+    background-color: rgb(255, 255, 255);
+    border-left:   rgb(255, 255, 255);
+    border-top:   rgb(255, 255, 255);
+    border-right:   rgb(255, 255, 255);
+    border-bottom:   rgb(255, 255, 255);
+    color: rgb(5, 67, 121);
 }
 .botones1{
-    margin: 5px;
-    margin-left: -20px;
-    padding: 0.2em;
-    font-size: 0.9em;
+    margin: 1%;
+    margin-right: 2px;
+    font-size: auto;
+    width:min-content ;
     cursor: pointer;
-    background-color: rgb(0, 0, 0);
-    border-left:   rgb(0, 0, 0);
-    border-top:   rgb(0, 0, 0);
-    border-right:   rgb(0, 0, 0);
-    border-bottom:   rgb(0, 0, 0);
-    color: aliceblue;
+    background-color: rgb(255, 252, 252);
+    border-left:   rgb(252, 252, 252);
+    border-top:   rgb(255, 255, 255);
+    border-right:   rgb(255, 255, 255);
+    border-bottom:   rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 
 .barra-navegacion{
-    position: fixed;
+    position: absolute;
+    top: 20%;
     overflow-y:scroll;
-    top: 150px;
-    background-color: rgb(0, 0, 0);
-    height: 850px;
-    width:415px;
+    height:100%;
+    width:auto;
     text-align: justify;
     padding-left: -1.0em;
     
@@ -88,27 +58,27 @@ body{
 }
 
 .cuerpo{
-    position:relative;
-    top: 450px;
-    left: 440px;
-    width: 1100px;
+    position:absolute;
+    top: 50%;
+    left:25%;
+    width: 55%;
     height: auto;
     
 }
 
 .titulo{
     font-size: 30px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 
 .subtitulo{
     font-size:24px;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 .parrafos{
     text-align: justify;
     line-height: 25px;
-    color:aliceblue;
+    color:rgb(0, 0, 0);
 }
 
 .iconos{
@@ -122,7 +92,7 @@ body{
 }
 
 .figura1{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .bordo-figure{
     border-style: solid;
