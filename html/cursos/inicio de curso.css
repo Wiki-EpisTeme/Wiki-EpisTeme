@@ -20,20 +20,20 @@ body{
 }
 
 .boton1{
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 25rem;
     left: 47%;
     width: auto;
 }
 .boton2{
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 25rem;
     left: 17%;
     width: auto;
 }
 .boton3{
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 25rem;
     left: 77%;
     width: auto;
 }
