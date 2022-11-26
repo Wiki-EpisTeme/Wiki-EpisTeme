@@ -12,29 +12,34 @@ background-color: rgb(255, 255, 255);
 }
 .bienvenida1{
     position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 5rem;
+    left: auto;
+    margin-left: 5%;
+    font-size: 30px;
 }
 .logo1{
     position: absolute;
-    top: 80%;
-    left: 89%;
-    width: 10%;
-    
+    top: 1rem;
+    margin-left: 45%;
+    width: 10rem;
+}
+.indice{
+    position: relative;
+    top: 15rem;
+    margin-left: 5%;
+}
+.botones{
+    margin: 9px;
 }
 
-.boton-facultades{
+
+.noticias{
     position: absolute;
-    top: 50%;
-    left: 20%;
+    top: 15rem;
+    margin-left: 80%;
 }
-.boton-cursos{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-}
-.boton-historia_politica{
-    position: absolute;
-    top: 50%;
-    left: 80%;
+.contactame{
+    position: relative;
+    top: 30rem;
+    margin-left: 5%;
 }
