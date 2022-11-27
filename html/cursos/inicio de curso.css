@@ -1,39 +1,41 @@
 body{
     position: fixed;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     font-size: 12px;
     font-family: sans-serif;
     color: black;
     width: 100%;
 }
-
+.logo1{
+    position: absolute;
+    top: 10rem;
+    margin-left: 28%;
+    min-width: 50%;
+}
 .titulo{
     position: absolute;
     top: 1%;
-    left: 50%;
+    left: 2%;
 
 }
-
-.boton{
-    position: absolute;
-    top: 10rem;
+.noticias{
+    position: fixed;
+    top: 15rem;
+    margin-left: 100rem;
+}
+.botones{
+    position: fixed;
+    top: 15rem;
     left: auto;
-    width: auto;
-
-    
-    
+    width: auto;   
 }
-.adentro{
+.botones1{
     color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    font-size:larger;
-    margin: 5%;
     background-color: rgb(255, 255, 255);
-    border-left:   rgb(255, 255, 255);
-    border-top:   rgb(255, 252, 252);
-    border-right:   rgb(255, 255, 255);
-    border-bottom:   rgb(255, 255, 255);
-    width: auto;
+    border-color: rgb(255, 255, 255);
+    border-bottom-right-radius: 12px;
+    width: 200px;
+    margin-top: 10px;
 }
 
 /*
