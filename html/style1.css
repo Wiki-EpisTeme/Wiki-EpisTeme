@@ -12,16 +12,15 @@ background-color: rgb(255, 255, 255);
 }
 .bienvenida1{
     position: absolute;
-    top: 5rem;
-    left: auto;
-    margin-left: 5%;
+    top: 0.5rem;
+    margin-left: 1%;
     font-size: 30px;
 }
 .logo1{
     position: absolute;
-    top: 1rem;
-    margin-left: 45%;
-    width: 10rem;
+    top: 10rem;
+    margin-left: 28%;
+    min-width: 50%;
 }
 .indice{
     position: relative;
@@ -31,7 +30,14 @@ background-color: rgb(255, 255, 255);
 .botones{
     margin: 9px;
 }
-
+.botones1{
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    width: 200px;
+    height: max-content;
+}
 
 .noticias{
     position: absolute;
@@ -40,6 +46,6 @@ background-color: rgb(255, 255, 255);
 }
 .contactame{
     position: relative;
-    top: 30rem;
-    margin-left: 5%;
+    top: 45rem;
+    margin-left: 49%;
 }
