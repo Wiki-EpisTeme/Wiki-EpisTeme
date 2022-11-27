@@ -5,9 +5,10 @@ body{
     font-family: sans-serif;
     color: black;
     width: 100%;
+    
 }
 .logo1{
-    position: absolute;
+    position:fixed;
     top: 10rem;
     margin-left: 28%;
     min-width: 50%;
@@ -16,15 +17,14 @@ body{
     position: absolute;
     top: 1%;
     left: 2%;
-
 }
 .noticias{
-    position: fixed;
+    position: absolute;
     top: 15rem;
     margin-left: 100rem;
 }
 .botones{
-    position: fixed;
+    position: absolute;
     top: 15rem;
     left: auto;
     width: auto;   

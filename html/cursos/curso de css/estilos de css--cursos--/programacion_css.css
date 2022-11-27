@@ -58,9 +58,9 @@ body{
 }
 
 .cuerpo{
-    position:absolute;
+    position: absolute;
     top: 50%;
-    left:25%;
+    left:27rem;
     width: 55%;
     height: auto;
     
