@@ -5,7 +5,7 @@ background-color: rgb(255, 255, 255);
 }
 
 .fondo1{
-    position: fixed;
+    position: absolute;
     left: -10px;
     z-index: -999;
 
@@ -23,7 +23,7 @@ background-color: rgb(255, 255, 255);
     min-width: 50%;
 }
 .indice{
-    position: relative;
+    position: absolute;
     top: 15rem;
     margin-left: 5%;
 }
@@ -45,7 +45,18 @@ background-color: rgb(255, 255, 255);
     margin-left: 100rem;
 }
 .contactame{
-    position: relative;
-    top: 45rem;
+    position: absolute;
+    top: 54rem;
     margin-left: 49%;
 }
+
+@media screen and (min-width: 768px) {
+    .grid-1-2 {
+      display: grid;
+      grid-template-columns: 50% 50%;
+    }
+  
+    .grid-1-2 > * {
+      padding: 1rem;
+    }
+  }
